@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharp.AddMulSubDiv</StartupObject>
+    <StartupObject>CSharp.Method</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Add, Mul, Sub, Div.cs" />
     <Compile Include="Addition.cs" />
+    <Compile Include="Method.cs" />
     <Compile Include="Welcome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
