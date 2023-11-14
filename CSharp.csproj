@@ -49,6 +49,7 @@
     <Compile Include="Add, Mul, Sub, Div.cs" />
     <Compile Include="Addition.cs" />
     <Compile Include="Method.cs" />
+    <Compile Include="Practise.cs" />
     <Compile Include="Welcome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
