@@ -4,42 +4,34 @@ namespace CSharp
 {
     class Practise
     {
-        public static int Addition (int a, int b)
+
+        public string Details(string name, int age, string country)
         {
-            return a + b;
+            return "\nMy name is " + name + "\nMy age is " + age + "\nI am a resident of " + country;
         }
 
-        public static int Subtract (int a, int b) 
-        {  
-            return a - b;
-        }
 
-        public static int Multiply (int a , int b)
-        { 
-            return a * b;
-        }
-
-        public static int Divide (int a, int b)
-        {
-            return a / b;
-        }
 
         static void Main()
         {
-            int firstNumber = 10;
-            int secondNumber = 20;
+            Console.WriteLine("Please enter your name");
+            string name = Console.ReadLine();
 
-            int add = Addition (firstNumber, secondNumber);
-            int sub = Subtract (firstNumber, secondNumber);
-            int mul = Multiply (firstNumber, secondNumber);
-            int div = Divide (firstNumber, secondNumber);
+            Console.WriteLine("Please enter your age");
+            int age = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("The addition is " + add);
-            Console.WriteLine("The subtraction is " + sub);
-            Console.WriteLine("The multiplication is " + mul);
-            Console.WriteLine("The division is " + div);
+            Console.WriteLine("Please enter your name of resident country");
+            string country = Console.ReadLine();
+
+            Practise myObject = new Practise();
+            
+            string result = myObject.Details(name, age, country);
+
+            Console.WriteLine(result);
 
             Console.ReadKey();
         }
+
+
     }
 }
