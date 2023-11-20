@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharp.Practise</StartupObject>
+    <StartupObject>Practise</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
