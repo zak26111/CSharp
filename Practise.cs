@@ -1,48 +1,32 @@
-﻿//using System;
+﻿using System;
 
-//namespace CSharp
-//{
-//    public class PractiseClass
-//    {
-//        public static void StaticMethod()
-//        {
-//            Console.WriteLine("This method is static");
-//        }
-
-//        public void NonStaticMethod()
-//        {
-//            Console.WriteLine("This method is non-static");
-//        }
-//    }
-
-//    class Practise
-//    {
-//        static void Main()
-//        {
-//            PractiseClass.StaticMethod();
-
-//            PractiseClass instance = new PractiseClass();
-//            instance.NonStaticMethod();
-
-//            Console.ReadKey();
-
-//        }
-//    }
-//}
-
-using System;
-
-class Practise
+namespace CSharp
 {
-    static void Main()
+    public class PractiseClass
     {
-        int num = 100;
+        public static void StaticMethod()
+        {
+            Console.WriteLine("This method is static");
+        }
 
-        Console.WriteLine(num);
-        num = 200;
-        num = 300;
+        public void NonStaticMethod()
+        {
+            Console.WriteLine("This method is non-static");
+        }
+    }
 
-        Console.WriteLine(num);
-        Console.ReadKey();
+    class Practise
+    {
+        static void Main()
+        {
+            
+            PractiseClass obj = new PractiseClass();
+            obj.NonStaticMethod();
+
+            PractiseClass.StaticMethod();
+
+            Console.ReadKey();
+
+        }
     }
 }
