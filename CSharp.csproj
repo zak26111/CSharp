@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharp.Practise</StartupObject>
+    <StartupObject>CSharp.TestTwo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,9 +48,13 @@
   <ItemGroup>
     <Compile Include="Add, Mul, Sub, Div.cs" />
     <Compile Include="Addition.cs" />
+    <Compile Include="Calculator.cs" />
+    <Compile Include="Loop.cs" />
     <Compile Include="Method.cs" />
     <Compile Include="PersonalInfo.cs" />
     <Compile Include="Practise.cs" />
+    <Compile Include="TestOne.cs" />
+    <Compile Include="TestTwo.cs" />
     <Compile Include="Welcome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
