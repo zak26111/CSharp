@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharp.TestTwo</StartupObject>
+    <StartupObject>CSharp.TestThree</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +54,7 @@
     <Compile Include="PersonalInfo.cs" />
     <Compile Include="Practise.cs" />
     <Compile Include="TestOne.cs" />
+    <Compile Include="TestThree.cs" />
     <Compile Include="TestTwo.cs" />
     <Compile Include="Welcome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
