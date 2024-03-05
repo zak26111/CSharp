@@ -1,29 +1,61 @@
-﻿using System;
+﻿//using System;
+
+//namespace CSharp
+//{
+//    class First
+//    {
+//        int magicNumber = 10;
+
+//        public int MyProperty
+//        {
+//            get
+//            {
+//                return magicNumber;
+//            }
+//        }
+//    }
+
+//    class Second
+//    {
+//        static void Main()
+//        {
+//            First first = new First();
+//            Console.WriteLine(first.MyProperty);
+
+//            Console.ReadKey();
+//        }
+//    }
+//}
+
+using System;
 
 namespace CSharp
 {
-    class First
+    class PropertyOne
     {
-        int magicNumber = 10;
+        private string name = "Zain Ali";
 
-        public int MyProperty
+        public string Name
         {
             get
             {
-                return magicNumber;
+                return name;
             }
+
+            //set
+            //{ 
+            //    name = value;
+            //}
         }
-
-
     }
 
-    class Second
+    class PropertyTwo
     {
         static void Main()
         {
-            First first = new First();
-            Console.WriteLine(first.MyProperty);
-
+            PropertyOne property = new PropertyOne();
+            //property.Name = "Ali";
+            Console.WriteLine(property.Name);
             Console.ReadKey();
         }
     }
