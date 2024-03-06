@@ -62,6 +62,7 @@
 //}
 
 using System;
+using System.Collections.Generic;
 
 namespace CSharp
 {
@@ -69,9 +70,10 @@ namespace CSharp
     {
         static void Main()
         {
-            int i;
-            Console.WriteLine(i);
-            Console.ReadKey();
+            HashSet<int> hs = new HashSet<int>() { 1, 1, 2, 3, 3 };
+
+foreach (var val in hs)
+                Console.Write(val);
         }
     }
 }
