@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharp.PropertyTwo</StartupObject>
+    <StartupObject>CSharp.Property</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
