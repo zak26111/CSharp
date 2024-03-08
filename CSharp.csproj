@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharp.PropertyTwo</StartupObject>
+    <StartupObject>CSharp.NumbersPropertyTwo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="Loop.cs" />
     <Compile Include="Method.cs" />
+    <Compile Include="NumbersProperty.cs" />
     <Compile Include="PersonalInfo.cs" />
     <Compile Include="Practise.cs" />
     <Compile Include="Property.cs" />

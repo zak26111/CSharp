@@ -37,7 +37,7 @@ namespace CSharp
         private string name = "";
         private string message = "";
 
-        string[] names = { "Zain", "David", "Prashant", "Afroz", "Norika" };
+        string[] names = { "zain", "david", "prashant", "afroz", "norika" };
 
         public string Name
         {
@@ -80,10 +80,11 @@ namespace CSharp
             PropertyOne property = new PropertyOne();
             //property.Name = "Ali";
             //Console.WriteLine(property.Name);
-            string result = property["Zain123"];
+            Console.WriteLine("Please enter a name");
+            string userInput = Console.ReadLine().ToLower();
+            string result = property[userInput];
             Console.WriteLine(result); 
             Console.ReadKey();
         }
     }
 }
-
