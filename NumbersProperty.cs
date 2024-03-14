@@ -26,19 +26,19 @@ namespace CSharp
             }
         }
 
-        public string this[int userNumber]
-        {
-            get 
-            {
-                if (numbers.Contains(userNumber))
-                    message = "Your number exists in our system";
+    //    public string this[int userNumber]
+    //    {
+    //        get 
+    //        {
+    //            if (numbers.Contains(userNumber))
+    //                message = "Your number exists in our system";
 
-                else
-                    message = "Your number doesn't exists in our system";
-                return message;
-            }
-        }
-    }
+    //            else
+    //                message = "Your number doesn't exists in our system";
+    //            return message;
+    //        }
+    //    }
+    //}
 
     class NumbersPropertyTwo
     {
