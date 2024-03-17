@@ -20,36 +20,37 @@ namespace CSharp
                     return 0;
             }
 
-            set 
+            set
             {
                 number = value;
             }
         }
 
-    //    public string this[int userNumber]
-    //    {
-    //        get 
-    //        {
-    //            if (numbers.Contains(userNumber))
-    //                message = "Your number exists in our system";
+        //    public string this[int userNumber]
+        //    {
+        //        get 
+        //        {
+        //            if (numbers.Contains(userNumber))
+        //                message = "Your number exists in our system";
 
-    //            else
-    //                message = "Your number doesn't exists in our system";
-    //            return message;
-    //        }
-    //    }
-    //}
+        //            else
+        //                message = "Your number doesn't exists in our system";
+        //            return message;
+        //        }
+        //    }
+        //}
 
-    class NumbersPropertyTwo
-    {
-        static void Main()
+        class NumbersPropertyTwo
         {
-            NumbersPropertyOne number = new NumbersPropertyOne();
-            Console.WriteLine("Please enter a number");
-            int userInput = Convert.ToInt32(Console.ReadLine());
-            string result = number[userInput];
-            Console.WriteLine(result);
-            Console.ReadKey();
+            static void Main()
+            {
+                NumbersPropertyOne number = new NumbersPropertyOne();
+                Console.WriteLine("Please enter a number");
+                int userInput = Convert.ToInt32(Console.ReadLine());
+                //string result = number[userInput];
+                Console.WriteLine(result);
+                Console.ReadKey();
+            }
         }
     }
 }
