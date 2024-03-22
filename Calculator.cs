@@ -42,6 +42,7 @@ namespace CSharp
             Console.WriteLine("The answer is " + c);
             Console.WriteLine("The answer is " + d);
 
+            //Console.WriteLine();
             Console.ReadKey();
         }
     }
